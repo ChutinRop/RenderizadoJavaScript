@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KanbanFlow</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+  <!-- Header Principal -->
+  <header class="bg-blue-600 text-white p-4 flex justify-between items-center shadow-md">
+    <div class="flex items-center">
+      <h1 class="text-xl font-bold">🚀 KanbanFlow</h1>
+    </div>
+    <div class="flex items-center">
+      <span class="mr-4">Bienvenido, Robinson Gonzalez</span>
+      <img src="https://i.pravatar.cc/40" alt="Avatar de usuario" class="w-10 h-10 rounded-full">
+    </div>
+  </header>
+
+  <!-- Contenido Principal -->
+  <main class="p-8">
+    <h2 class="text-2xl font-bold text-gray-800 mb-6">Mis Tableros</h2>
+
+    <!-- Contenedor dinámico -->
+    <div id="boards-container" class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      <p class="text-gray-500">Cargando tableros...</p>
+    </div>
+  </main>
+
+  <!-- Script de lógica -->
+  <script src="./script.js"></script>
+</body>
+</html>
